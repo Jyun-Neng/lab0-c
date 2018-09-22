@@ -90,7 +90,7 @@ bool q_insert_tail(queue_t *q, char *s)
 {
     /* You need to write the complete code for this function */
     /* Remember: It should operate in O(1) time */
-    if (!q || !(q->tail))
+    if (!q)
         return false;
 
     list_ele_t *newt;
